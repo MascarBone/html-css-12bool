@@ -6,11 +6,12 @@
 }
 
 [class^=col] {
-    background-color: hotpink;
+    background-color: rgb(255, 47, 151);
     height: 200px;
     border: 2px solid black;
     text-align: center;
-    line-height: 200px;
+    position: relative;
+    /* line-height: 200px; */
 }
 
 .row .row {
@@ -18,7 +19,8 @@
 }
 
 .row .row > [class^=col] {
-    background-color: brown;
+    background-color: rgb(68, 121, 47);
     height: calc(200px - 40px);
-    line-height: calc(200px - 40px);
+    /* line-height: calc(200px - 40px); */
     border: 2px solid white;
+}
