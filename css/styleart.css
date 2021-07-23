@@ -7,11 +7,15 @@
 
 [class^=col] > .row [class^=col] {
     height: 17.5px;
-    border: 2px solid grey;
+    /* border: 1px solid grey; */
 }
 .container {
-    min-width: 420px
+    min-width: 420px;
 }
+.mrg-top-100 {
+    margin-top: 100px;
+}
+
 .black {
     background-color: black;
 }
