@@ -1,0 +1,12 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^=col] {
+    background-color: hotpink;
+    height: 200px;
+    border: 2px solid black;
+}
