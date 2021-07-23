@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^=col] > .row [class^=col] {
+    height: 17.5px;
+    border: 2px solid grey;
+}
+.container {
+    min-width: 420px
+}
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+
+@media screen and (min-width: 576px) {
+    [class^=col] > .row [class^=col] {
+        height: 22.5px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    [class^=col] > .row [class^=col] {
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 968px) {
+    [class^=col] > .row [class^=col] {
+        height: 40px;
+    }
+}
