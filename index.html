@@ -14,7 +14,7 @@
 <body>
     <div class="container">
 
-        Prima Riga da 12 colonne
+        <!-- Prima Riga da 12 colonne -->
         <div class="row">
             <div class="col-xs-1">1 col</div>
             <div class="col-xs-1">1 col</div>
@@ -30,6 +30,45 @@
             <div class="col-xs-1">1 col</div>
         </div>
 
+        <!-- Seconda Riga composta da 1 sola colonna -->
+        <div class="row">
+            <div class="col-xs-12">12 col</div>
+        </div>
+
+        <!-- Tera Riga composta da 1 col(8) e 2 col(2) -->
+        <div class="row">
+            <div class="col-xs-8">8 col</div>
+            <div class="col-xs-2">2 col</div>
+            <div class="col-xs-2">2 col</div>
+        </div>
+
+        <!-- Quarta Riga composta da 1 col(1), 2 col(2), 1 col(6) ed 1 col(1) -->
+        <div class="row">
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-2">2 col</div>
+            <div class="col-xs-2">2 col</div>
+            <div class="col-xs-6">6 col</div>
+            <div class="col-xs-1">1 col</div>
+        </div>
+
+        <!-- Quinta Riga composta da 2 col(6)
+        La 1a ha innestate 2 col(2) ed 1 col(8)
+        La 2a ha innestate 2 col(6) -->
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-2">2 col innested</div>
+                    <div class="col-xs-2">2 col innested</div>
+                    <div class="col-xs-8">8 col innested</div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-6">6 col innested</div>
+                    <div class="col-xs-6">6 col innested</div>
+                </div>
+            </div>
+        </div>
     </div>
     
 </body>

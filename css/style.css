@@ -9,4 +9,16 @@
     background-color: hotpink;
     height: 200px;
     border: 2px solid black;
+    text-align: center;
+    line-height: 200px;
 }
+
+.row .row {
+    margin: 20px;
+}
+
+.row .row > [class^=col] {
+    background-color: brown;
+    height: calc(200px - 40px);
+    line-height: calc(200px - 40px);
+    border: 2px solid white;
